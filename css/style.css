@@ -1,0 +1,48 @@
+div.left{
+    width:50%;
+    height:100%;
+    max-width:50%;
+    max-height:100%;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:right center;
+    position:relative;
+    z-index:1
+}
+div.right{
+    width:50%;
+    height:100%;
+    max-width:50%;
+    max-height:100%;
+    background-repeat:no-repeat;background-size:contain;
+    background-position:left center;
+    position:relative;
+    left:50%;
+    top:-100%;
+    z-index:2
+}
+
+.container {
+    width: 100%;
+}
+
+.container div{
+    width: 30%;
+    height: 10%;
+    float:right;
+}
+div.start{
+    width:100%;
+    height:calc(7 * (1vw + 1vh - 1vmin));
+    max-width:100%;
+    max-height:50%;
+    background-image:url('https://sun9-27.userapi.com/c857024/v857024129/1348d3/RecZkmnLGH8.jpg');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center top;
+    background-color: black;
+    position:relative;
+    left:0%;
+    top:-155%;
+    z-index:3;
+}
